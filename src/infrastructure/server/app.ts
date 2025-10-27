@@ -6,6 +6,7 @@ import cookieParser from 'cookie-parser';
 import compression from 'compression';
 
 
+
 export function startServer(/*routes: Router[]*/): Express {
 
     const app = express()
